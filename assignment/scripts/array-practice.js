@@ -99,3 +99,5 @@ console.log('Foods array to string:', foodsArray.join(' and '));
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let animalFood = animalArray.concat(foodsArray);
+console.log('Animal food array:', animalFood);
